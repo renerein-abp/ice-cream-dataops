@@ -19,6 +19,7 @@ variables:
 
       ice_cream_api:
         icapi_extractors_source_id: ${ICAPI_EXTRACTORS_SOURCE_ID}
+        pause_transformations: false
         tokenUri: ${IDP_TOKEN_URL}
         cdfProjectName: ${CDF_PROJECT}
         scopes: ${IDP_SCOPES}
